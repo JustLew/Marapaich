@@ -117,7 +117,7 @@ p {
     display:flex;
 }
 
-.slides{
+.slides input{
     display: none;
 }
 
@@ -129,4 +129,20 @@ p {
 .slide img{
     width: 800px;
     height: 500px;
+}
+
+.navigation-mannual{
+    position: absolute;
+    width: 800px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.mannual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
 }
